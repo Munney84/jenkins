@@ -4,7 +4,7 @@ pipeline {
     stage ('Build') {
       steps {
         sh 'echo "HELLO CLARENCE"'
-        SH '''
+        sh '''
         echo "This is the second branch, b2"
         ls -lh
         uname -a
